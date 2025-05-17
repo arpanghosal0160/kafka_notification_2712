@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.env
+.env.local
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# VS Code
+.vscode/
+
+# OS
+Thumbs.db
+*.swp
+
+# Docker
+kafka_data/

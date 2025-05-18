@@ -1,5 +1,5 @@
 const nodemailer = require('nodemailer');
-const sendSMSViaTwilio = require('./sendSms'); // <-- import your real SMS sender
+const sendSMSViaTwilio = require('./sendSms'); 
 const Notification = require('../models/notification');
 
 // Email service
@@ -26,7 +26,7 @@ const sendSMS = async (payload) => {
   return sendSMSViaTwilio(payload.to, payload.body);
 };
 
-// In-app (mock)
+
 const sendInApp = async (payload) => {
   const notification = new Notification({
     type: payload.type,

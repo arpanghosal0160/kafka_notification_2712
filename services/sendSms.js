@@ -1,4 +1,5 @@
-// services/sendSMS.js
+// This module sends SMS messages using Twilio.
+// It exports a function that takes a recipient's phone number and the message body as parameters.
 const twilio = require('twilio');
 
 const accountSid = process.env.TWILIO_ACCOUNT_SID;

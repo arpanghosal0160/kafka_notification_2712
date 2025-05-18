@@ -2,7 +2,7 @@ const sendToKafka = require('./kafka/producer');
 
 const testMessage = {
   type: "email",
-  to: "jaiswalayush015@gmail.com", // <-- Replace with your real email address
+  to: "22052712@kiit.ac.in", 
   subject: "Test Email Notification",
   body: "Hello from Arpan Notifications. This is a test email notification.",
 };

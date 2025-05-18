@@ -3,7 +3,7 @@ const sendToKafka = require('./kafka/producer');
 
 const testMessage = {
   type: "sms",
-  to: "+917699283637", // ✅ Use a real phone number in international format
+  to: "+917699283637", 
   body: "This is a test SMS notification."
 };
 

@@ -151,19 +151,8 @@ node test-producer.js
 
 ---
 
-## Troubleshooting
+## Common Problems and Solutions
 
 - **Kafka connection errors:** Make sure Docker containers are running and Kafka is ready.
 - **Email not sent:** Use a Gmail App Password, check spam folder.
 - **SMS not sent:** Use a Twilio-verified phone number as the sender, check Twilio logs.
-
----
-
-## License
-
-MIT
-
----
-
-**Questions?**  
-Open an issue or contact the maintainer.

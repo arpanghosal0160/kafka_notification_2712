@@ -15,6 +15,18 @@ A Node.js microservice for sending notifications via **Email**, **SMS**, and **I
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="assets/architecture.png" alt="Architecture Diagram" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/api-demo.png" alt="API Demo" width="600"/>
+</p>
+
+---
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (v18+ recommended)
@@ -138,6 +150,7 @@ node test-producer.js
 
 ```
 .
+├── assets/             # Images and diagrams
 ├── config/             # Kafka config
 ├── kafka/              # Producer & consumer logic
 ├── models/             # Mongoose models
@@ -156,3 +169,5 @@ node test-producer.js
 - **Kafka connection errors:** Make sure Docker containers are running and Kafka is ready.
 - **Email not sent:** Use a Gmail App Password, check spam folder.
 - **SMS not sent:** Use a Twilio-verified phone number as the sender, check Twilio logs.
+
+---

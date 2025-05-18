@@ -18,11 +18,31 @@ A Node.js microservice for sending notifications via **Email**, **SMS**, and **I
 ## Screenshots
 
 <p align="center">
-  <img src="assets/architecture.png" alt="Architecture Diagram" width="600"/>
+  <img src="assets/1.jpg" alt="Architecture Diagram" width="600"/>
 </p>
 
 <p align="center">
-  <img src="assets/api-demo.png" alt="API Demo" width="600"/>
+  <img src="assets/2.jpg" alt="API Demo" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/3.jpg" alt="API Demo" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/4.jpg" alt="API Demo" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/5.jpg" alt="API Demo" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/6.jpg" alt="API Demo" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/7.jpg" alt="API Demo" width="600"/>
 </p>
 
 ---
